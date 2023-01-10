@@ -1,0 +1,211 @@
+footer {
+
+}
+footer .top {
+  background-color: #222;
+}
+footer .top .wrap {
+  column-count: 2;
+}
+footer .top .wrap ul.fnb {
+  column-span: all;
+  display: flex;
+  line-height: 3;
+}
+footer .top .wrap ul.fnb li {
+
+}
+
+footer .top .wrap ul.fnb li:not(:nth-child(1))::before{
+  content: "";
+  color: #999;
+  border-left: 1px solid #999;
+  margin: 0 20px;
+  display: inline-block;
+  height: 11px;
+} 
+footer .top .wrap ul.fnb li a {
+  color: #999;
+  font-size: 14px;
+}
+footer .top .wrap ul.fnb li:nth-child(n+4):nth-child(-n+5) a{
+  color: #fff;
+  font-weight:500;
+}
+
+footer .top .wrap ul.fnb li:nth-child(7) a{
+  color: #01a251;
+}
+footer .top .wrap ul.fnb li:nth-child(7) a::after{
+  content: "+";
+}
+footer .top .wrap address {
+  color: #999;
+  column-span: all;
+  font-size: 14px;
+  line-height: 2.5;
+}
+footer .top .wrap address span {
+  border-left: 1px solid;
+  display: inline-block;
+  height: 11px;
+  margin: 0 6px;
+}
+footer .top .wrap p {
+  column-span: all;
+  /*! line-height: 2; */
+  color: #999;
+  font-size: 12px;
+}
+footer .top .wrap p span{  
+  color: #01a251;
+}
+footer .top .wrap h1 {
+}
+footer .top .wrap h1 strong{  
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100px;
+}
+footer .top .wrap h1 strong::after{
+  content: "";
+  border-bottom: 2px solid;
+  display: block;
+  margin: 3px 0;
+  width: 108px;
+}
+footer .top .wrap h1 a {
+  color: #999;
+  font-size: 11px;
+  display: flex;
+  margin-top: 15px;
+  font-weight: bold;
+  flex-direction: column;
+  width: 110px;
+  text-align: center;
+}
+footer .top .wrap ul.sns {
+  display: flex;
+  gap: 20px;
+}
+footer .top .wrap ul.sns li {
+
+}
+footer .top .wrap ul.sns li a {
+  background-repeat: no-repeat;
+  font-size: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+footer .top .wrap ul.sns li:nth-child(1) a{
+  background-image: url(../img/u.svg); 
+}
+footer .top .wrap ul.sns li:nth-child(1) a:hover{
+  background-image: url(../img/u-on.svg);
+}
+footer .top .wrap ul.sns li:nth-child(2) a{ 
+  background-image: url(../img/n.svg);
+}
+footer .top .wrap ul.sns li:nth-child(2) a:hover{
+  background-image: url(../img/n-on.svg);
+}
+footer .top .wrap ul.sns li:nth-child(3) a{ 
+  background-image: url(../img/f.svg);
+}
+footer .top .wrap ul.sns li:nth-child(3) a:hover{
+  background-image: url(../img/f-on.svg);
+}
+footer .top .wrap ul.sns li:nth-child(4) a{  
+  background-image: url(../img/i.svg);
+}
+footer .top .wrap ul.sns li:nth-child(4) a:hover{
+  background-image: url(../img/i-on.svg);
+}
+footer .top .wrap ul.sns li:nth-child(5) a{ 
+  background-image: url(../img/k.svg);
+}
+footer .top .wrap ul.sns li:nth-child(5) a:hover{
+  background-image: url(../img/k-on.svg);
+}
+footer .top .wrap ul.sns li:nth-child(6) a{  
+  background-image: url(../img/in.svg);
+}
+footer .top .wrap ul.sns li:nth-child(6) a:hover{
+  background-image: url(../img/in-on.svg);
+}
+footer .bottom{
+}
+footer .bottom .wrap {
+  display: flex;
+}
+footer .bottom .wrap h2{
+
+}
+footer .bottom .wrap figure {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+footer .bottom .wrap figure img {
+  width: 100%;
+}
+footer .bottom .wrap figure:nth-of-type(2) img{  
+  max-width: 36px;
+  height: 30px;
+}
+footer .bottom .wrap figure:nth-of-type(3) img{ 
+  max-width: 72px;
+  max-height: 69px;
+}
+footer .bottom .wrap figure:nth-of-type(5) img{  
+  max-width: 157px;
+}
+footer .bottom .wrap figure figcaption {
+  display: none;
+}
+footer .bottom .wrap figure figcaption dl {
+
+}
+footer .bottom .wrap figure figcaption dl dt {
+
+}
+footer .bottom .wrap figure figcaption dl dd {
+
+}
+footer a.top{
+  position: fixed;
+  right: 30px;
+  bottom: 116px;
+  font-size: 0;
+  border: 20px solid green;
+  border-bottom-width: 30px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  background-color: transparent;
+  }
+  footer a.top::before{
+    content: "";
+    position: absolute;
+    left: -16px;
+    top: -13px;
+    font-size: 0;
+    border: 16px solid #eee;
+    border-bottom-width: 25px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    background-color: transparent;
+  }
+  footer a.top::after{
+    content: "Top";
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    width: 40px;
+    right: -20px;
+    text-align: center;
+    line-height: 38px;
+  }
